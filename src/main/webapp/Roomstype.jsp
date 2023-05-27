@@ -16,7 +16,7 @@
     </head>
     <body>
        <div class="box">            
-           <form action="managerooms.jsp">
+           <form action="Rooms.jsp">
                <h2>Types of Rooms</h2>
                <div class="inputBox" > 
                <table id="type" border="2" cellpadding="2">
