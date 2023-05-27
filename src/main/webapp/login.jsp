@@ -1,20 +1,32 @@
-<%-- 
-    Document   : login
-    Created on : May 25, 2023, 11:45:28 PM
-    Author     : MyPc
---%>
-
+<%@ page import="java.sql.*" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="logo.png">
         <title>Login</title>
     </head>
     <body>
-         <div class="box">            
-        <form action="myServlet" method="POST" enctype="application/x-www-form-urlencoded">
+        <%
+        Connection con= null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+
+        String driverName = "com.mysql.cj.jdbc.Driver";
+        String url = "jdbc:mysql://localhost:3306/DBmarriott";
+        String user = "root";
+        String password = ""; 
+        
+        
+
+        try {
+        Class.forName(driverName);
+        con = DriverManager.getConnection(url, user, password);        
+        %>
+        <div class="box">            
+        <form action="loginbean.jsp" method="POST" enctype="application/x-www-form-urlencoded">
             <h2>Sign in</h2>
             <div class="inputBox">
                 <input type="text" name="name" value="" required="required"/>
@@ -25,13 +37,21 @@
                 <input type="password" name="pswd" value="" required="required" />
                 <span>Password</span>
                 <i></i>
-            </div>
+            </div>                     
             <div class="links">
                 <a href="#">Forgot Password</a>
                 <a href="#">Sign up</a>
             </div>
+                
             <input type="submit" value="Login" />            
         </form>            
         </div> 
+        <%    
+                }
+                catch(SQLException sqe)
+                {
+                out.println("login "+sqe);
+                }
+        %>
     </body>
 </html>
