@@ -50,7 +50,7 @@
         
         <div class="row">
             <div class="col-sm-4">
-             <   <form  method="POST" action="Rooms.jsp" >
+               <form  method="POST" action="Roomsupdate.jsp" >
                     
                   <%    
                          Connection con;
@@ -78,7 +78,7 @@
                         
                     <div alight="left">
                         <label class="form-label">Type</label>
-                        <select name="TypeID" >
+                        <select name="TypeID" value="<%= rs.getString("type")%>"  >
                                 <option align="center" >Select Type ID</option>
                                 <option align="center">1</option>
                                 <option align="center">2</option>
@@ -97,8 +97,8 @@
                     <div alight="left">
                         <label class="form-label">Reserved</label>
                         <br>
-                        <input type="radio"  name="Reserved" value="<%= rs.getString("phone_number")%>" />Yes &nbsp;
-                        &nbsp;<input type="radio"  name="Reserved" value="<%= rs.getString("phone_number")%>" />No
+                        <input type="radio"  name="Reserved" value="<%= rs.getString("Reserved")%>" />Yes &nbsp;
+                        &nbsp;<input type="radio"  name="Reserved" value="<%= rs.getString("Reserved")%>" />No
                      </div>
                     
                     <% }  %>
