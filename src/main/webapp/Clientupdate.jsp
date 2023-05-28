@@ -22,7 +22,7 @@
         pstt.setString(2, lname);
         pstt.setString(3, phone_num);
         pstt.setString(4, email);
-        pstt.setString(5, client_id)
+        pstt.setString(5, client_id);
         pstt.executeUpdate();   
         
         %>
