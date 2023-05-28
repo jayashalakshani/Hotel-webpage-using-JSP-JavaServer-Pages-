@@ -47,7 +47,7 @@
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <%@include file="header.jsp" %>  
+        
         <div class="row">
             <div class="col-sm-4">
                <form  method="POST" action="Roomsupdate.jsp" >
@@ -94,15 +94,15 @@
                         <input type="text" class="form-control" placeholder="Enter Yes or No" name="Reserved" value="<%= rs.getString("Reserved")%>" />
                         
                      </div>
-                    
                     <% }  %>
+                     
                          </br>
                         
                      <div alight="right">
                          <input type="submit" id="submit" value="Update" name="Update" class="btn btn-info">
                          
                      </div>  
-                        
+                      
                           <div align="right">
                             
                              <p><a href="Rooms.jsp">Back To Rooms Page</a></p>
@@ -113,6 +113,5 @@
                 
             </div>
         </div>
-       <%@include file="footer.jsp" %> 
     </body>
 </html>
