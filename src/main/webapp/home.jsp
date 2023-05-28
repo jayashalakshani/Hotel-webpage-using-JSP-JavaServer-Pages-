@@ -1,8 +1,3 @@
-<%-- 
-    Document   : home
-    Created on : May 26, 2023, 12:09:50 AM
-    Author     : MyPc
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

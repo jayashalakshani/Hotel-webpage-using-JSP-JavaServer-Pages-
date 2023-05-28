@@ -18,16 +18,13 @@
         String url = "jdbc:mysql://localhost:3306/DBmarriott";
         String user = "root";
         String password = ""; 
-        
-        
-
         try {
         Class.forName(driverName);
         con = DriverManager.getConnection(url, user, password);        
         %>
         <div class="box">            
         <form action="loginbean.jsp" method="POST" enctype="application/x-www-form-urlencoded">
-            <h2>Sign in</h2>
+            <h2>Login</h2>
             <div class="inputBox">
                 <input type="text" name="name" value="" required="required"/>
                 <span>Username</span>
@@ -40,7 +37,7 @@
             </div>                     
             <div class="links">
                 <a href="#">Forgot Password</a>
-                <a href="#">Sign up</a>
+                <a href="signup.jsp">Sign up</a>
             </div>
                 
             <input type="submit" value="Login" />            
