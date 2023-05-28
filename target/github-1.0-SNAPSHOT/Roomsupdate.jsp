@@ -8,7 +8,7 @@
 <%@page import="java.sql.*" %>
  
 <%
-    if(request.getParameter("Add new room")!=null)
+    if(request.getParameter("Update")!=null)
     {
         String R_number= request.getParameter("RoomNo");
         String type= request.getParameter("TypeID");
@@ -78,14 +78,8 @@
                         
                     <div alight="left">
                         <label class="form-label">Type</label>
-                        <select name="TypeID" value="<%= rs.getString("type")%>"  >
-                                <option align="center" >Select Type ID</option>
-                                <option align="center">1</option>
-                                <option align="center">2</option>
-                                <option align="center">3</option>
-                                <option align="center">4</option>
-                                <option align="center">5</option>
-                            </select>
+                        <input type="text" name="TypeID" value="<%= rs.getString("type")%>" />
+                                
                             &nbsp;<a href="Roomstype.jsp">Show Type</a>
                      </div>
                         
@@ -97,21 +91,21 @@
                     <div alight="left">
                         <label class="form-label">Reserved</label>
                         <br>
-                        <input type="radio"  name="Reserved" value="<%= rs.getString("Reserved")%>" />Yes &nbsp;
-                        &nbsp;<input type="radio"  name="Reserved" value="<%= rs.getString("Reserved")%>" />No
+                        <input type="text" class="form-control" placeholder="Enter Yes or No" name="Reserved" value="<%= rs.getString("Reserved")%>" />
+                        
                      </div>
                     
                     <% }  %>
                          </br>
                         
                      <div alight="right">
-                         <input type="submit" id="submit" value="Add new room" name="Add new room" class="btn btn-info">
-                         <input type="reset" id="reset" value="Clear All Fields" name="Clear All Fields" class="btn btn-warning">
+                         <input type="submit" id="submit" value="Update" name="Update" class="btn btn-info">
+                         
                      </div>  
                         
                           <div align="right">
                             
-                             <p><a href="Rooms.jsp">Click Back</a></p>
+                             <p><a href="Rooms.jsp">Back To Rooms Page</a></p>
                             
                             
                          </div>
