@@ -47,7 +47,7 @@
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        
+        <%@include file="header.jsp" %>  
         <div class="row">
             <div class="col-sm-4">
                <form  method="POST" action="Roomsupdate.jsp" >
@@ -113,5 +113,6 @@
                 
             </div>
         </div>
+       <%@include file="footer.jsp" %> 
     </body>
 </html>

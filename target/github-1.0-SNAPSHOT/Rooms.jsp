@@ -46,7 +46,12 @@
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <h1>Manage Rooms</h1>
+        <%@include file="header.jsp" %>
+        <div class="container-xxl py-5">
+        <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h1 class="mb-5">Manage Rooms</h1>
+        </div>
         </br>
         <div class="row">
             <div class="col-sm-4">
@@ -144,7 +149,8 @@
  
             </div>  
         </div>
-   
-        
+        </div>
+        </div>
+        <%@include file="footer.jsp" %> 
     </body>
 </html>
