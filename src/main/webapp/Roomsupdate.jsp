@@ -75,19 +75,19 @@
                         <label class="form-label">Room Number</label>
                         <input type="text" class="form-control" placeholder="0 out of 50" value="<%= rs.getString("R_number")%>" name="RoomNo" id="RoomNo" required >
                      </div>
-                        
+                     <br>  
                     <div alight="left">
                         <label class="form-label">Type</label>
-                        <input type="text" name="TypeID" value="<%= rs.getString("type")%>" />
+                        <input type="text" class="form-control" name="TypeID" value="<%= rs.getString("type")%>" />
                                 
                             &nbsp;<a href="Roomstype.jsp">Show Type</a>
                      </div>
-                        
+                      <br>   
                      <div alight="left">
                         <label class="form-label">Phone Number</label>
                         <input type="text" class="form-control" value="<%= rs.getString("phone_number")%>" placeholder="Phone Number" name="mobNo" id="mobNo" >
                      </div>
-                    
+                    <br> 
                     <div alight="left">
                         <label class="form-label">Reserved</label>
                         <br>

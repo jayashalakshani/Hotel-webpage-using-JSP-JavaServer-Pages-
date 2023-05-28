@@ -50,13 +50,13 @@
         </br>
         <div class="row">
             <div class="col-sm-4">
-             <   <form  method="POST" action="Rooms.jsp" >
+                <form  method="POST" action="Rooms.jsp" >
                     
                     <div alight="left">
                         <label class="form-label">Room Number</label>
                         <input type="text" class="form-control" placeholder="0 out of 50" name="RoomNo" id="RoomNo" required >
                      </div>
-                        
+                 <br> 
                     <div alight="left">
                         <label class="form-label">Type</label>
                         <select name="TypeID">
@@ -69,12 +69,12 @@
                             </select>
                             &nbsp;<a href="Roomstype.jsp">Show Type</a>
                      </div>
-                        
+                 <br> 
                      <div alight="left">
                         <label class="form-label">Phone Number</label>
                         <input type="text" class="form-control" placeholder="Phone Number" name="mobNo" id="mobNo" >
                      </div>
-                    
+                 <br>
                     <div alight="left">
                         <label class="form-label">Reserved</label>
                         <br>
@@ -130,7 +130,7 @@
                                  <td><%=rs.getString("phone_number") %></td>
                                  <td><%=rs.getString("Reserved") %></td>
                                  <td><a href="Roomsupdate.jsp?id=<%=id%>">Edit</a></td>
-                                 <td><a href="Roomsdelete.jsp<%=id%>>">Remove</a></td>
+                                 <td><a href="Roomsdelete.jsp?id=<%=id%>">Remove</a></td>
                              </tr>
                             
                                <%
