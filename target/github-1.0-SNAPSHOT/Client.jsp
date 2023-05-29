@@ -1,9 +1,3 @@
-<%-- 
-    Document   : Client
-    Created on : May 28, 2023, 7:59:59 PM
-    Author     : hansa
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.*" %>
 <%
@@ -46,53 +40,8 @@
     </head>
     <body>
         <%@include file="header.jsp" %>
-        <div class="container-xxl py-5">
-        <div class="container">
-        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h1 class="mb-5">Manage Clients</h1>
-        </div>
-        <br>
+        //code
         
-        <div class="row">
-            <div class="col-sm-4">
-                <form  method="POST" action="Client.jsp" >
-                    
-                    <div alight="left">
-                        <label class="form-label">Client ID number</label>
-                        <input type="text" class="form-control" placeholder="NIC or Passport" name="ClientID" id="ClientID" required >
-                     </div>
-                 <br> 
-                    <div alight="left">
-                        <label class="form-label">First Name</label>
-                        <input type="text" class="form-control" placeholder="" name="fname" id="fname" required >
-                            
-                           
-                     </div>
-                 <br>
-                    <div alight="left">
-                        <label class="form-label">Last Name</label>
-                        <input type="text" class="form-control" placeholder="" name="lname" id="lname" required >
-                    </div> 
-                 <br>
-                     <div alight="left">
-                        <label class="form-label">Phone Number</label>
-                        <input type="text" class="form-control" placeholder="Phone Number" name="mobNo" id="mobNo" >
-                     </div>
-                 <br>
-                    <div alight="left">
-                        <label class="form-label">E-mail</label>
-                        <input type="text" class="form-control" placeholder="abc@gmail.com" name="Email" id="Email" >
-                        <br>
-                        
-                     </div>
-                         <br>
-                        
-                     <div alight="right">
-                         <input type="submit" id="submit" value="Add new client" name="Add new client" class="btn btn-info">
-                         <input type="reset" id="reset" value="Clear All Fields" name="Clear All Fields" class="btn btn-warning">
-                     </div>  
-                        
-                </form>
                 
             </div>
             

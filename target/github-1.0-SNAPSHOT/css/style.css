@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{ 
-    background-image:url('login.png');
+    background-image:url(image17.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
