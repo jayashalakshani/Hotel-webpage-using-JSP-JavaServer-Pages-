@@ -1,4 +1,3 @@
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -34,16 +33,7 @@
     </head>
     <body>
         <div class="container-fluid-xxl bg-white p-0">
-            <%---    
-        <!-- Spinner Start -->
-        <div id="spinner"
-            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-        </div>
-        <!-- Spinner End -->
-            --%>
+           
          <!-- Header Start -->
         <div class="container-fluid bg-dark px-0">
             <div class="row gx-0">
@@ -52,12 +42,12 @@
                         <a href="home.jsp"
                             class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
                             <h1 class="m-0 text-primary">
-                                <img src="logo.png" class="logo" alt="Logo">
+                                <img src="img/logo.png" class="logo" alt="Logo">
                             </h1>
                         </a>
                     </div>
                     <a href="home.jsp" class="navbar-brand d-block d-lg-none">
-                        <img src="logo.png" class="logo" alt="Logo">
+                        <img src="img/logo.png" class="logo" alt="Logo">
                     </a>
                     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCol">
                         <span class="navbar-toggler-icon"></span>
