@@ -100,12 +100,16 @@
                          
                      </div>  
                     <% }  %> 
-                    
-                          <div align="right">
-                            
-                             <p><a href="Rooms.jsp">Back To Rooms Page</a></p>
-                         
-                         </div>
+                        <div class="container-xxl py-5">
+                        <div class="container">
+                        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="align-items-center">
+                                            <a href="Rooms.jsp" class="btn  rounded-pill py-2 px-3  ">Back<i
+                                                    class="fa fa-arrow-left ms-3"></i></a>
+                            </div>
+                        </div>
+                        </div>
+                        </div>                          
                 </form>
                 
             </div>

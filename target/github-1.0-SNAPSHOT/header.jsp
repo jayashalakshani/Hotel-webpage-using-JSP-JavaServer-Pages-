@@ -52,12 +52,12 @@
                         <a href="home.jsp"
                             class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
                             <h1 class="m-0 text-primary">
-                                <img src="logo.png" class="logo" alt="Logo">
+                                <img src="img/logo.png" class="logo" alt="Logo">
                             </h1>
                         </a>
                     </div>
                     <a href="home.jsp" class="navbar-brand d-block d-lg-none">
-                        <img src="logo.png" class="logo" alt="Logo">
+                        <img src="img/logo.png" class="logo" alt="Logo">
                     </a>
                     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCol">
                         <span class="navbar-toggler-icon"></span>

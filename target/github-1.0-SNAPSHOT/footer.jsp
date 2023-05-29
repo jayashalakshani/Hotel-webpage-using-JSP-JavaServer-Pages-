@@ -15,7 +15,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class=" rounded p-4">
                         <a href="home.jsp">
-                            <img src="logo.png" width="250px" alt="">
+                            <img src="img/logo.png" width="250px" alt="">
                         </a>
 
                     </div>
