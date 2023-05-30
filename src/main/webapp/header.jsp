@@ -7,7 +7,7 @@
         <meta content="" name="keywords">
         <meta content="" name="description">
         <!-- Favicon -->
-        <link rel="icon" href="logo.png"> 
+        <link rel="icon" href="img/logo.png"> 
 
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,7 +56,7 @@
 
                         <div class="navbar-nav mr-auto py-0">
                             <a href="home.jsp" class="nav-item nav-link active">Home</a>
-                            <a href="#" class="nav-item nav-link">Manage Client</a>
+                            <a href="Client.jsp" class="nav-item nav-link">Manage Client</a>
                             <a href="Rooms.jsp" class="nav-item nav-link">Manage Room</a>                                                      
                             <a href="#footer" class="nav-item nav-link">Contact</a>
                         </div>

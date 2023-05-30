@@ -26,10 +26,10 @@
                             <h3 class="text-primary text-uppercase mb-3">Marriot </h3>
 
                             <a class="btn btn-link" href="home.jsp">Home</a>                            
-                            <a class="btn btn-link" href="#">Manage Client</a>
+                            <a class="btn btn-link" href="Client.jsp">Manage Client</a>
                             <a class="btn btn-link" href="Rooms.jsp">Manage Rooms</a>
                             <a class="btn btn-link" href="#">Terms & Condition</a>
-                            <a class="btn btn-link" href="#">Support</a>
+                            <a class="btn btn-link" href="term_condition.jsp">Support</a>
                         </div>
                     </div>
                 </div>
