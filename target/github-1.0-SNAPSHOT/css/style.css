@@ -10,14 +10,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     font-family: 'Poppins', sans-serif;
 }
 body{ 
-    /*background-image:url('image17.png');
-    background-size: cover;
-    background-repeat: no-repeat;*/
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-image:url('image17.png');
+    min-height: 100vh;    
+    background:#382727;
+    
 }
 .box{
     position: relative;

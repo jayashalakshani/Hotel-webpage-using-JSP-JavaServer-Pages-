@@ -8,8 +8,7 @@
         <link rel="icon" href="img/logo.png">
         <title>Login</title>
     </head>
-    <body>
-        <%@include file="header.jsp" %>
+    <body>        
         <%
         Connection con= null;
         PreparedStatement ps = null;
