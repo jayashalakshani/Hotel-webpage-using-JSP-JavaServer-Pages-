@@ -9,6 +9,7 @@
         <title>Login</title>
     </head>
     <body>
+        <%@include file="header.jsp" %>
         <%
         Connection con= null;
         PreparedStatement ps = null;
@@ -52,3 +53,4 @@
         %>
     </body>
 </html>
+

@@ -1,3 +1,8 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
 *{    
     margin: 0;
     padding:0 ;
@@ -5,14 +10,14 @@
     font-family: 'Poppins', sans-serif;
 }
 body{ 
-    background-image:url('image17.png');
+    /*background-image:url('image17.png');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /*background: #23242a;*/
+    background-image:url('image17.png');
 }
 .box{
     position: relative;
@@ -169,3 +174,4 @@ body{
     text-align: center;
     color:#fff;
 }  
+
