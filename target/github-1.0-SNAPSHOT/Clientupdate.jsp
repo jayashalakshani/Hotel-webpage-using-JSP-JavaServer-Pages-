@@ -46,14 +46,14 @@
             <div class="col-sm-4">
                <form  method="POST" action="Clientupdate.jsp" >
                     <%    
-                         Connection con;
+                        Connection con;
                         PreparedStatement pstt;
                         ResultSet rs;
         
-                         Class.forName("com.mysql.cj.jdbc.Driver");
-                          con = DriverManager.getConnection("jdbc:mysql://localhost:3306/DBmarriott","root","");
+                        Class.forName("com.mysql.cj.jdbc.Driver");
+                        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/DBmarriott","root","");
                           
-                          String client_id = request.getParameter("id");
+                        String client_id = request.getParameter("id");
                           
                         pstt = con.prepareStatement("select * from client where client_id = ?");
                         pstt.setString(1, client_id);
@@ -67,7 +67,7 @@
                     
                     <div alight="left">
                         <label class="form-label">Client ID number</label>
-                        <input type="text" class="form-control" placeholder="NIC or Passport" value="<%= rs.getString("client_id")%>" name="ClientID" id="ClientID" required >
+                        <input type="text" class="form-control" placeholder="" value="<%= rs.getString("client_id")%>" name="ClientID" id="ClientID" required >
                      </div>
                  <br> 
                     <div alight="left">
@@ -111,7 +111,7 @@
                         </div>
                         </div>
                 </form>
-                
             </div>
+            <%@include file="footer.jsp" %>
     </body>
 </html>
