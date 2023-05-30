@@ -3,6 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="icon" href="img/logo.png">  
         <title>Marriott Hotel Staff Terms and Conditions</title>
     </head>
     <body>

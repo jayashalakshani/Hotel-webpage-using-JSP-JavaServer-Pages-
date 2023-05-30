@@ -1,9 +1,3 @@
-<%-- 
-    Document   : Roomsupdate
-    Created on : May 27, 2023, 6:14:12 PM
-    Author     : hansa
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.*" %>
  
@@ -43,6 +37,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Update Rooms</title>
+        <link rel="icon" href="img/logo.png">  
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     </head>

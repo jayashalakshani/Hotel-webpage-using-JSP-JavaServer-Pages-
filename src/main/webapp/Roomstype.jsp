@@ -1,16 +1,10 @@
-<%-- 
-    Document   : Roomstype
-    Created on : May 27, 2023, 7:59:45 AM
-    Author     : hansa
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Rooms Type</title>
-        
+        <link rel="icon" href="img/logo.png">  
         <link rel="stylesheet" href="roomstyles.css">
         
     </head>

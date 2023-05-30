@@ -28,8 +28,7 @@
                             <a class="btn btn-link" href="home.jsp">Home</a>                            
                             <a class="btn btn-link" href="Client.jsp">Manage Client</a>
                             <a class="btn btn-link" href="Rooms.jsp">Manage Rooms</a>
-                            <a class="btn btn-link" href="#">Terms & Condition</a>
-                            <a class="btn btn-link" href="term_condition.jsp">Support</a>
+                            <a class="btn btn-link" href="term_condition.jsp">Terms & Condition</a>                            
                         </div>
                     </div>
                 </div>
